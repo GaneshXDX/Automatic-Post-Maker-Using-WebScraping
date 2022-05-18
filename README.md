@@ -8,8 +8,8 @@ We have developed an automatic post maker with the help of web scraping integrat
 # Aims and objective: -
 The Project was made to solve a problem for content creators on regular basis on platforms like Instagram, LinkedIn, Facebook, WhatsApp need to spare sometimes to edit the post with the help of this project. Such a person will only have to select websites from which he had to scrap the data that’s it, then just with one click of download button we can save image in JPG/PNG file and then we can easily post them. However, it can be used as a tool for social media platforms. The focus of this project is to save your time.
 # we can save image in JPG/PNG file using Download Button
-![image](https://user-images.githubusercontent.com/86229878/169048096-c315fdb7-7e14-4573-870f-ca20079727e0.png)
-![image](https://user-images.githubusercontent.com/86229878/169048129-69e36528-e50d-408f-b144-5579049c0669.png)
+![image](https://user-images.githubusercontent.com/86229878/169048504-26a15e86-4b96-4a1f-a5db-8284f58c9015.png)
+![image](https://user-images.githubusercontent.com/86229878/169048539-8674485d-efdb-4d94-9b5c-53adb36fac51.png)
 # Image File
 ![image](https://user-images.githubusercontent.com/86229878/169048178-acf0f41d-3ebb-4a3c-aeea-a329050a3b5e.png)
 # Business Today News websites from which we have scrap the data
