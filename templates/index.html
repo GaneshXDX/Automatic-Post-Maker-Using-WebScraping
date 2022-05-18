@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en" style="background-image: url('../static/image/wallpaperflare.com_wallpaper.jpg');
+background-attachment: fixed;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post-Maker</title>
+    <!--<link rel="stylesheet" href="{{url_for('static',filename='css//style.css')}}">-->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+<body>
+    <!--WEB CODE-->
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        
+    * {box-sizing: border-box;}
+    
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #e9e9e9;
+    }
+    
+    .topnav a {
+      float: left;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .topnav a.active {
+      background-color: #2196F3;
+      color: white;
+    }
+    
+    .topnav .login-container {
+      float: right;
+    }
+    
+    .topnav input[type=text] {
+      padding: 6px;
+      margin-top: 8px;
+      font-size: 17px;
+      border: none;
+      width:120px;
+    }
+    
+    .topnav .login-container button {
+      float: right;
+      padding: 6px 10px;
+      margin-top: 8px;
+      margin-right: 16px;
+      background-color: #555;
+      color: white;
+      font-size: 17px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .topnav .login-container button:hover {
+      background-color: green;
+    }
+    
+    @media screen and (max-width: 600px) {
+      .topnav .login-container {
+        float: none;
+      }
+      .topnav a, .topnav input[type=text], .topnav .login-container button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+      }
+      .topnav input[type=text] {
+        border: 1px solid #ccc;  
+      }
+      .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+      }
+      
+      .fa:hover {
+          opacity: 0.7;
+      }
+      
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+    }
+    </style>
+    </head>
+    <body>
+    <div class="topnav">
+      <a class="active" href="#home">Aᴜᴛᴏᴍᴀᴛɪᴄ-Pᴏsᴛ-Mᴀᴋᴇʀ</a>
+      <a href="https://www.businesstoday.in/technology/news">  
+        <button>Nᴇᴡs-Sɪᴛᴇ</button>  
+      </a>
+      <a href="./">Tʜᴇᴍᴇs</a>
+      <a href="https://github.com/GaneshXDX/Automatic-Post-Maker-Using-WebScraping">GɪᴛHᴜʙ</a>
+      <a href="https://github.com/GaneshXDX/Automatic-Post-Maker-Using-WebScraping/blob/main/myproject/README.md">
+          <button>Sʏɴᴏᴘsɪs</button>
+        </a>
+      <a href="https://www.facebook.com/">➤𝗳𝗮𝗰𝗲𝗯𝗼𝗼𝗸</a>
+      <a href="https://www.instagram.com/">➤𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦</a>
+      <a href="https://www.facebook.com/">➤𝗟𝗶𝗻𝗸𝗲𝗱𝗶𝗻</a>
+      <a href="https://www.facebook.com/">➤𝐭𝐰𝐢𝐭𝐭𝐞𝐫</a>
+      <div class="login-container">
+        <form action="#action_page.php">
+          <input type="text" placeholder="Username" name="username">
+          <input type="text" placeholder="Password" name="password">
+          <button type="submit">Login</button>
+        </form>
+      </div>
+    </div>
+    
+    </body>
+    </html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color:#555;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  cursor: pointer;
+  float:right;
+  position:fixed;
+  top: 9px;
+  right: 326px;
+  width: 70px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color:blue;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+
+<button class="open-button" onclick="openForm()">SignUp</button>
+
+<div class="form-popup" id="myForm">
+  <form action="#action_page.php" class="form-container">
+    <h1>Let's Connect Join Our Network</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="btn">Register</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+</body>
+</html>
+
+    <!--WEB CODE END-->
+    <div class="mb-10 top-1 w-screen flex flex-col justify-center items-center">
+        <!--<img src="../static/image/logo.png" class="w-500 h-320" alt="Logo Image">-->
+    </div>
+    <div class="bottom-6 m-auto relative" id="container" style="width:614px; height:700px;">
+        <img src="" id="bg1" width="614px" height="700px">
+        <span class=" font-mono text-lg absolute text-white whitespace-pre-line text-justify" id="News"
+            style="width: 550px; top: 100px; left: 30px; line-height: 2em;">
+            {{News|safe}}
+            <!-- These curly braces are a gateway for python variables and functions (via flask) to Front-end. This is done with the help of Jinja template engine.-->
+        </span>
+    </div>
+    <div id="canvasWrapper" class="mb-10 w-screen flex justify-center items-center">
+        <button
+            class="text-white p-3 rounded-md font-sans text-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500"
+            onclick="download()">Download Post</button>
+
+    <script>
+        var newbg = document.getElementById("bg1");
+        var background = new Image();
+        background.src = "static/image/" + (Math.floor(Math.random() * (7)) + 1) + ".jpg";
+        newbg.src = background.src;
+        console.log(newbg.src);
+    </script>
+    <script src="/static/js/h2c.min.js"></script>
+    <script>
+        function download() {
+            html2canvas(document.getElementById("container"), { height: 635, width: 614 }).then(canvas => {
+                //document.body.appendChild(canvas);
+                var a = document.createElement('a');
+                a.href = canvas.toDataURL("image/jpeg").replace("image/jpeg", "image/octet-stream");
+                a.download = 'SarhadTechPost.jpg';
+                a.click();
+            });
+        }
+    </script>
+</body>
+</html>
+
