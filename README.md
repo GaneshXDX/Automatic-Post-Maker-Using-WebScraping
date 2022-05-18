@@ -2,6 +2,7 @@
 # Web Application Interface Refresh to Change Templates
 ![image](https://user-images.githubusercontent.com/86229878/169047778-3df71655-75c6-41a7-a429-91c5342aac1b.png)
 
+
 # Introduction: -
                       We have developed an automatic post maker with the help of web scraping integrated with web page Sarhad news post, we will scrap data from the news website such as Business Today and dump the headings into our personal website which we will be creating and convert that text into downloadable file in JPEG/PNG format. On our website their will, be templates already present and scrapped data will be dumped on that website only. We are using Web Scrapers it is closely related to web crawlers and while there are no real industry definitions for these terms, a distinction is often made, Web crawlers, or spiders or scrapers, are often used in search engines, as they crawl or scan through a website, looking for links, titles for indexing purposes. Web scrapers may still crawl through a website however a web scraper is a software that extracts data from webpages and stores the data in a database for further manipulation.	
                         The project was made to solve a problem for content creators on regular basis on platform like Instagram, LinkedIn. Creators need to spare sometime to edit the post with the help of this project. Such a person will only have to select websites from which he had to scrap the data that’s it, then just with one click of download button we can save image in JPG/PNG file.
