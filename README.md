@@ -1,5 +1,5 @@
 # Automatic-Post-Maker-Using-WebScraping
-# Web Application Interface Refresh to Change Templates
+# Web Application Interface 
 ![image](https://user-images.githubusercontent.com/86229878/169047778-3df71655-75c6-41a7-a429-91c5342aac1b.png)
 
 # Introduction: -
